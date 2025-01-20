@@ -3,13 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- seo 엔진 최적화 -->
+    <!-- 웹페이지의 설명을 정의 -->
+    <meta name="description" content="project_mini 웹사이트입니다." />
+    <!-- 웹페이지와 관련된 키워드를 정의 -->
+    <meta name="keywords" content="project_mini" />
+    <!-- 웹페이지의 저자를 정의  -->
+    <meta name="author" content="project_mini" />
+    <!-- 소셜 미디어에서 페이지가 공유될때 사용되는 제목 -->
+    <meta property="og:title" content="project_mini" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 사이트 이름 -->
+    <meta property="og:site_name" content="project_mini" />
+    <!-- 소셜 미디어에서 페이지가 웹사이트임을 명시 -->
+    <meta property="og:type" content="website" />
+    <!-- Open Graph 프로토콜에서 사용되는 메타 태그의 속성 중 하나로, 페이지의 간략한 설명을 제공하는 데 사용 -->
+    <!-- 소셜 미디어에서 공유될 때 사용되는 URL -->
+    <meta property="og:url" content="https://jungsaetbyeol.github.io/project_mini/" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 이미지 -->
+    <meta property="og:image" content="https://clemetie.github.io/knitting_shop/img/logo.png" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 사용되는 설명 -->
+    <meta property="og:description" content="project_mini" />
     <title>project mini</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="images/duck3.png" />
   </head>
   <body>
     <div class="wrap">
-      <header>
+      <header class="header_gnb">
         <!-- logo -->
         <div class="header logo">
           <a href="#" class="logo_img"><img src="images/Vectorlogo.png" alt="logo" /></a>
@@ -29,7 +49,9 @@
           <!-- 검색바 -->
           <div class="header search_bar">
             <input type="text" placeholder="검색어를 입력해 주세요" />
-            <img src="images/nav_icon3.png" alt="돋보기" />
+            <span>
+              <img src="images/nav_icon3.png" alt="돋보기" />
+            </span>
           </div>
           <div class="header icon">
             <a href="#"><img src="images/nav_icon.png" alt="사람" /></a>
@@ -38,7 +60,25 @@
         </nav>
       </header>
       <!-- 이너 -->
-      <div class="wrap_inner"></div>
+      <div class="wrap_inner">
+        <div class="main">
+          <!-- txt -->
+          <div class="main-txt">
+            <h2>iPhone 6 Pro</h2>
+            <p class="title">
+              견고함.아름다움.<br />
+              티타늄.
+            </p>
+            <h3>iPhone 10 Pro 5등급 티타늄 디자인을 채택했으<br>
+               마이크로블라스팅 공법으로 정교하게 처리된 새로운<br>
+                텍스처를 자랑합니다</h3>
+          </div>
+          <!-- img -->
+          <div class="main-img">
+            <img src="images/iphone.png" alt="아이폰" />
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
