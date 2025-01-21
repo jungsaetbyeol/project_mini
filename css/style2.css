@@ -1,0 +1,180 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+.inner {
+  width: 1280px;
+  /* width: calc(100% - 630px); */
+
+  margin: auto;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+}
+/* nav */
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+/* nav 로고 */
+.nav-logo {
+  width: 15%;
+}
+.logo {
+  width: 28px;
+  height: 28px;
+}
+.logo img {
+  width: 100%;
+}
+.logo-txt {
+  font-size: 28px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+/* nav 메뉴 */
+.nav-menu {
+  width: 45%;
+}
+.nav-menu li {
+  padding: 0 10px;
+}
+.nav-menu li a {
+  font-size: 17px;
+}
+/* nav 검색창 */
+.nav-search {
+  position: relative;
+
+  width: 15%;
+}
+.nav-search::before {
+  content: "";
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.3;
+  border-radius: 100px;
+  border: 1px solid #fff;
+}
+.nav-search input {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+
+  /* 배경색 제거 */
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+/* nav 아이콘 */
+.nav-icon {
+  width: 10%;
+}
+.nav-icon a {
+  width: 28px;
+  height: 28px;
+}
+.nav-icon a img {
+  width: 100%;
+}
+/* main */
+.main {
+  position: relative;
+  height: 1080px;
+}
+/* main 텍스트 */
+.main-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+  top: 546px;
+  left: 0;
+  color: #fff;
+}
+.main-txt h2 {
+  font-size: 22px;
+  font-weight: normal;
+}
+.main-txt h1 {
+  font-size: 72px;
+}
+.main-txt p {
+  font-size: 18px;
+  color: #767676;
+}
+/* main 이미지 */
+.main-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 680px;
+}
+.main-img img {
+  display: block;
+  width: 100%;
+}
+/* section1 */
+.section1 {
+    position: relative;
+    height: 1019px;
+}
+/* section 타이틀 */
+.section-title {
+  margin-top: 80px;
+  font-size: 38px;
+  color: #fff;
+}
+/* section1 이미지 */
+.section1-img {
+position: absolute;
+top: 400px;
+left: 80px;
+  display: flex;
+  gap: 40px;
+  text-align: center;
+}
+.img-list {
+  width: 320px;
+  height: 320px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.img-list img {
+  width: 100%;
+}
+/* section1 이미지 텍스트 */
+.section1-img p {
+  font-size: 14px;
+  color: #767676;
+}
+.section1-img strong {
+  color: #fff;
+}
+/* section2 */
+/* section2 이미지 */
+/* section2 이미지 칼라 */
+/* section2 버튼 */
+.section2-btn button{
+    color: #fff;
+}
