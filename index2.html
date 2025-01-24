@@ -24,13 +24,20 @@
     <!-- 소셜 미디어에서 페이지가 공유될 때 사용되는 설명 -->
     <meta property="og:description" content="project_mini" />
     <title>project mini</title>
-    <link rel="stylesheet" href="css/style2.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" href="images/duck3.png" />
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/section1.js"></script>
+
   </head>
   <body>
     <!-- 전체 -->
     <div class="wrap">
-      <!-- gnb -->
+      <!-- nav -->
       <nav>
         <!-- 로고 -->
         <div class="nav nav-logo">
@@ -38,16 +45,19 @@
           <a href="#" class="logo-txt">Apple store</a>
         </div>
         <!-- 메뉴 -->
-        <ul class="nav nav-menu">
-          <li><a href="#">Mac</a></li>
-          <li><a href="#">iPad</a></li>
-          <li><a href="#">iPhone</a></li>
-          <li><a href="#">Wacth</a></li>
-          <li><a href="#">Vision</a></li>
-          <li><a href="#">Airpods</a></li>
-          <li><a href="#">Entertainment</a></li>
-          <li><a href="#">Accessory</a></li>
-        </ul>
+         <div class="nav nav-menu">
+          <ul >
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">Wacth</a></li>
+            <li><a href="#">Vision</a></li>
+            <li><a href="#">Airpods</a></li>
+            <li><a href="#">Entertainment</a></li>
+            <li><a href="#">Accessory</a></li>
+          </ul>
+         </div>
+        
         <!-- 검색창 -->
         <div class="nav nav-search">
           <input type="text" placeholder="검색어를 입력해 주세요" />
@@ -250,26 +260,25 @@
           <article>
             <!-- left -->
             <div class="product section5-left">
-             
               <ul class="left-list">
                 <li>
-                  <span><img src="images/icon1.png" alt="아이콘1"></span>
+                  <span><img src="images/icon1.png" alt="아이콘1" /></span>
                   <p>a18 Pro 6코어 GPU 탑재</p>
                 </li>
                 <li>
-                  <span><img src="images/icon2.png" alt="아이콘2"></span>
+                  <span><img src="images/icon2.png" alt="아이콘2" /></span>
                   <p>Apple Intelligence 구동 가능</p>
                 </li>
                 <li>
-                  <span><img src="images/icon3.png" alt="아이콘3"></span>
+                  <span><img src="images/icon3.png" alt="아이콘3" /></span>
                   <p>카메라 컨트롤</p>
                 </li>
                 <li>
-                  <span><img src="images/icon4.png" alt="아이콘4"></span>
+                  <span><img src="images/icon4.png" alt="아이콘4" /></span>
                   <p>48MP 울트라 와이드 카메라</p>
                 </li>
                 <li>
-                  <span><img src="images/icon5.png" alt="아이콘5"></span>
+                  <span><img src="images/icon5.png" alt="아이콘5" /></span>
                   <p>최대 33시간 동영상 재생</p>
                 </li>
               </ul>
@@ -279,31 +288,86 @@
               <!-- menu -->
               <a href="#" class="right-menu">
                 <h3>전체 제품보기</h3>
-              <i><img src="images/icon6.png" alt="더보기"></i>
+                <i><img src="images/icon6.png" alt="더보기" /></i>
               </a>
               <div class="right-main">
                 <!-- 이미지 -->
-                <div class="right-main-img">
-                  <img src="images/pro_1-removebg-preview.png" alt="pro16">
-                  <img src="images/color-bar.png" alt="색상바">
-                </div>
+
+                <div class="pro16"><img src="images/pro16.png" alt="pro16" /></div>
+                <div class="color-bar"><img src="images/color-bar.png" alt="색상바" /></div>
+
                 <!-- 텍스트 -->
-                 <div class="right-main-txt">
+                <div class="right-main-txt">
                   <span>New</span>
                   <h3>IPhone 16 Pro</h3>
                   <p>₩ 1,550,000부터</p>
-                 </div>
-                 <!-- 버튼 -->
-                  <div class="right-main-btn">
-                    <button type="button">구입하기</button>
-                  </div>
-                
+                </div>
+                <!-- 버튼 -->
+                <div class="right-main-btn">
+                  <button type="button">구입하기</button>
+                </div>
               </div>
             </div>
           </article>
         </div>
-        
       </section>
+      <!-- footer -->
+      <footer>
+        <!-- logo영역-->
+        <div class="line">
+          <div class="footer footer-logo">
+            <!-- logo -->
+            <div class="logo">
+              <a href="#"><img src="images/Vectorlogo.png" alt="logo" /></a>
+              <p>Apple store</p>
+            </div>
+            <!-- info -->
+            <div class="logo-info">
+              <p>다양한 쇼핑 방법: Apple Store를 방문하거나, 리셀러를 찾아보거나,</p>
+              <p>080-330-8877번으로 전화하세요</p>
+              <p>Copyright ⓒ 2025 Apple Inc.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- nav영역-->
+        <div class="footer footer-nav">
+          <ul>
+            회사소개
+            <a href="#"><li>개인정보처리방침</li> </a>
+            <a href="#"><li>웹 사이트 이용 약관</li> </a>
+            <a href="#"><li>판매 및 환불</li> </a>
+            <a href="#"><li>법적 고지</li> </a>
+          </ul>
+          <ul>
+            계정
+            <a href="#"><li>Apple 계정 관리</li> </a>
+            <a href="#"><li>Apple Store 계정</li> </a>
+            <a href="#"><li>iCloud.com</li> </a>
+          </ul>
+          <ul>
+            Apple Store
+            <a href="#"><li>매장 찾기</li> </a>
+            <a href="#"><li>Genius Bar</li> </a>
+            <a href="#"><li>Today at Apple</li> </a>
+            <a href="#"><li>그룹 예약</li> </a>
+          </ul>
+          <ul>
+            Apple의 가치관
+            <a href="#"><li>손쉬운 사용</li> </a>
+            <a href="#"><li>환경</li> </a>
+            <a href="#"><li>개인정보 보호</li> </a>
+            <a href="#"><li>공급망</li> </a>
+          </ul>
+          <ul>
+            Apple 정보
+            <a href="#"><li>Newsroom</li> </a>
+            <a href="#"><li>Apple 리더십</li> </a>
+            <a href="#"><li>채용안내</li> </a>
+            <a href="#"><li>윤리 및 규정 준수</li> </a>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

@@ -1,0 +1,58 @@
+/* section3 */
+.section3 article {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    z-index: 100;
+    position: relative;
+    gap: 20px;
+  }
+  /* 이미지 */
+  .section3-img {
+    width: 360px;
+    height: 360px;
+  }
+  .section3-img img {
+    width: 100%;
+  }
+  /* 타이틀 */
+  .section3-title {
+    width: 730px;
+  }
+  .section3-title img {
+    width: 100%;
+  }
+  /* 내용 */
+  .section3-txt {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+  }
+  .section3-txt li {
+    width: 340px;
+    height: 140px;
+  }
+  .section3-txt li h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .section3-txt li p {
+    font-size: 18px;
+    color: #999;
+  }
+  
+  /* bg */
+  .section3-bg {
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+  }
+  .section3-bg img {
+    width: 100%;
+    display: block;
+  }
