@@ -1,30 +1,82 @@
 /* section1 */
 .section1 {
-    padding-bottom: 100px;
-  }
+  position: relative;
+  padding-bottom: 150px;
   
-  /*  이미지 */
-  .section1-img {
-    margin-top: 250px;
-    margin-left: 130px;
-    display: flex;
-    gap: 40px;
-  }
-  .img-list {
-    width: 275px;
-    height: 275px;
-    border-radius: 24px;
-    overflow: hidden;
-  }
-  .img-list img {
-    width: 100%;
-  }
-  /*  이미지 텍스트 */
-  .section1-img p {
-    margin-top: 20px;
-    font-size: 13px;
-    color: #767676;
-  }
-  .section1-img strong {
-    color: #fff;
-  }
+}
+.section1 article {
+  /* position: relative; */
+  width: 100%;
+  margin-top: 250px;
+  
+}
+/* 스와이퍼 */
+.section1 .swiper {
+  width: 100%;
+  height: 350px;
+  margin: 20px auto;
+}
+/* .swiper {
+  width: 100%;
+  height: 100%;
+} */
+
+.section1 .swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 이미지 */
+.control {
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.control-img {
+  display: block;
+  width: 285px;
+  height: 285px;
+  border-radius: 24px;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+.section1 .swiper-slide img {
+  width: 100%;
+  /* height: 100%; */
+  /* object-fit: cover; */
+}
+
+/* 이미지 텍스트 */
+.control-txt p {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #767676;
+  line-height: 17px;
+}
+.control-txt strong {
+  color: #fff;
+}
+/* 좌우 버튼 */
+.section1 .swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #fff;
+}
+/* pagination */
+.section1 .control-pagination  {
+  
+  width: 100%;
+  position: absolute;
+  bottom: 100px;
+
+text-align: center;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: #fff;
+ 
+}
+

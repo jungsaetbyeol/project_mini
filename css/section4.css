@@ -3,13 +3,54 @@
     width: 100%;
     padding-top: 80px;
     background: url(../images/camera_bg.png) no-repeat;
-    background-position-y: 85%;
+    background-position-y: 45%;
     background-size: calc(100% / 2 - 100px);
   }
   .section4 h1 {
     margin-bottom: 130px;
   }
-  
+  /* 스와이퍼 */
+  .cameraArticle{
+    
+    width: 100%;
+    height: 800px;
+  }
+  .section4 .swiper {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .section4 .camera{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* width: 100%; */
+    
+  }
+  .section4 .camera span{
+    width: 378.73px;
+    height: 722.63px;
+  }
+
+  .section4 .swiper-slide {
+    /* text-align: center; */
+    /* font-size: 18px; */
+    /* background: #fff; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .section4 .swiper-slide img {
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    /* object-fit: cover; */
+  }
+
+
+
+
   /* con  */
   .section4 article .con {
     display: flex;
