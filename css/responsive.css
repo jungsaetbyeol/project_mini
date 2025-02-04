@@ -1,0 +1,14 @@
+@media screen and (max-width: 1276px){
+nav .nav-logo .logo-txt , .nav-menu {
+    display: none;
+}
+#menu-bar{
+    display: block;
+  }
+  .footer-logo .logo p{
+    font-size: 22px;
+  }
+  .footer-logo .logo-info p{
+    font-size: 10px;
+  }
+}
