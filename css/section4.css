@@ -27,7 +27,7 @@
   /* justify-content: center; */
   position: absolute;
   top: 0;
-  right: 120px;
+  right: 5%;
   /* width: 100%; */
 }
 .section4 .camera span {
@@ -70,6 +70,10 @@
   margin-bottom: 70px;
   
 }
+.section4 .con-txt{
+  margin-left: 50px;
+  
+}
 .section4 h3 {
   font-size: 36px;
   font-weight: bold;
@@ -78,10 +82,11 @@
   line-height: 45px;
 }
 .section4 p {
-  width: 378.74px;
+  max-width: 378.74px;
   color: #868686;
   font-size: 22px;
   line-height: 30px;
+  
 }
 .section4 p strong {
   color: #fff;

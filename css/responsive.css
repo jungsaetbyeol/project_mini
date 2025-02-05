@@ -1,14 +1,140 @@
-@media screen and (max-width: 1276px){
-nav .nav-logo .logo-txt , .nav-menu {
+@media screen and (max-width: 1276px) {
+  /* nav */
+  nav{
+    justify-content: flex-end;
+  }
+  nav .nav-logo{
+    width: 7%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+  nav .nav-logo .logo-txt,
+  .nav-menu {
     display: none;
-}
-#menu-bar{
+  }
+  nav .nav-search{
+    
+    width: 30%;
+  }
+  #menu-bar {
     display: block;
   }
-  .footer-logo .logo p{
-    font-size: 22px;
+  /* main */
+  main .main-img {
+    width: 500px;
+    top: 45px;
   }
-  .footer-logo .logo-info p{
-    font-size: 10px;
+  main .main-txt h1{
+    font-size: 60px;
+  }
+  main .main-txt h2{
+    font-size: 20px;
+  }
+  main .main-txt p {
+    font-size: 15px;
+  }
+
+  /* footer */
+  .footer-logo .logo p {
+    font-size: 20px;
+  }
+  .footer-logo .logo-info p {
+    font-size: 11px;
+  }
+  .footer-logo .logo-info b {
+    display: none;
+  }
+  .footer-nav ul {
+    font-size: 14px;
+  }
+  .footer-nav li {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 925px){
+  /* nav */
+  nav .nav-icon{
+    margin-right: 3%;
+  }
+  nav .nav-search{
+    
+    display: none;
+  }
+  /* main */
+  main .main-img {
+    width: 400px;
+    top: 90px;
+  }
+  main .main-txt h1{
+    font-size: 50px;
+  }
+  main .main-txt h2{
+    font-size: 19px;
+  }
+  main .main-txt p {
+    font-size: 14px;
+  }
+  /* section4 */
+  .section4 span{
+    font-size: 48px;
+  }
+  .section4 h2{
+    font-size: 42px;
+    line-height: 80px;
+  }
+  .section4 .camera span {
+    width: 300px;
+    
+  }
+  .section4 h3{
+    font-size: 30px;
+  }
+  .section4 p{
+    max-width: 300px;
+    font-size: 17px;
+  }
+  /* section5 */
+  /* 왼쪽 */
+  .section5-left .left-list p{
+    font-size: 13px;
+  }
+  .section5-left .left-list li{
+    padding: 7px 0;
+  }
+  .section5-left .left-list span{
+    width: 45px;
+  height: 45px;
+  }
+  .section5-left .left-list span img{
+    width: 32px;
+  height: 32px;
+  margin: 15% auto;
+  }
+  /* 오른쪽 */
+  
+  .section5 .right-main{
+    width: 30%;
+    
+    
+  }
+  
+  .right-main .color-bar {
+    width: 43px;
+  }
+  .section5-right .right-main-txt{
+    margin-top: 12px;
+  }
+  .right-main-txt h3 {
+    font-size: 18px;
+  }
+  .right-main-txt p{
+    margin-top: 5px;
+    font-size: 11px;
+  }
+  .right-main-btn button{
+    padding: 8px 16px;
+    margin-top: 15px;
+    font-size: 12px;
   }
 }
