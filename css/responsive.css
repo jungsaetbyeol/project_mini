@@ -25,6 +25,9 @@
     width: 500px;
     top: 45px;
   }
+  main .main-txt {
+    left: 20px;
+  }
   main .main-txt h1{
     font-size: 60px;
   }
